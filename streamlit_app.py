@@ -5,6 +5,8 @@ st.title('Problem - Multiplication235')
 
 st.image("problem.png")
 
+message = False
+
 col1, col2, col3 = st.columns([1,1,1])
 with col2:
     if st.button("**Geneate solutions**"):
@@ -29,8 +31,10 @@ with col2:
                 else:
                     st.write(sl_no, str(a),"X",str(b),"=",str(c))
                 sl_no+=1
-    
-        st.markdown("""
+        message = True
+
+if message:
+    st.markdown("""
                         <h1 style='font-size:50px;'>
                             Total of <span style='color:red;'>16</span> solutions found.
                         </h1>
