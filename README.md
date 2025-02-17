@@ -15,3 +15,5 @@ Generating solutions for a pandigital multiplication puzzle.
     - Made a three-digit `b` number from 2<sup>nd</sup> to 4<sup>th</sup> index.
     - Made a five-digit `c` number from 5<sup>th</sup> to 9<sup>th</sup> index.
 - Check if the condition `a X b = c` and display the solutions.
+
+## 🧑‍💻 Try the app
