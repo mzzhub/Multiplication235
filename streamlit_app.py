@@ -30,8 +30,8 @@ with col2:
                     st.write(sl_no, str(a),"X",str(b),"=",str(c))
                 sl_no+=1
     
-    st.markdown("""
-                    <h1 style='font-size:50px;'>
-                        Total of <span style='color:red;'>16</span> solutions found.
-                    </h1>
-                """, unsafe_allow_html=True)
+        st.markdown("""
+                        <h1 style='font-size:50px;'>
+                            Total of <span style='color:red;'>16</span> solutions found.
+                        </h1>
+                    """, unsafe_allow_html=True)
