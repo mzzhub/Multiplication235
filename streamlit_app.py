@@ -35,6 +35,8 @@ with col2:
         digits = [0,1,2,3,4,5,6,7,8,9]
         permutations = list(itertools.permutations(digits))
 
+        sl_no = 1
+
         for i in permutations:
             # Making two-gigit number from 0th to 1st index.
             a = i[0]*10 + i[1]
@@ -47,7 +49,9 @@ with col2:
             if a*b==c:
                 if c < 10000:
                     # If the product is a four-digit, this will add a leading zero to the output.
-                    st.write(str(a),"X",str(b),"=",str(c).zfill(5))
+                    st.write(sl_no, str(a),"X",str(b),"=",str(c).zfill(5))
+                    sl_no+=1
                 else:
-                    st.write(str(a),"X",str(b),"=",str(c))
+                    st.write(sl_no, str(a),"X",str(b),"=",str(c))
+                    sl_no+=1
             
