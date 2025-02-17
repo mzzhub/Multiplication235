@@ -31,7 +31,7 @@ st.image("problem.png")
 
 col1, col2, col3 = st.columns([1,1,1])
 with col2:
-    if st.button("**Geneate solutions**")
+    if st.button("**Geneate solutions**"):
         digits = [0,1,2,3,4,5,6,7,8,9]
         permutations = list(itertools.permutations(digits))
 
