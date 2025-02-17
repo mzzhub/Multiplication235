@@ -7,11 +7,11 @@ Generating solutions for a pandigital multiplication puzzle.
 - Use each from 0 to 9 digit exactly once.
 
 ## Code breakdown
-- Created a list `digits` containing numbers from 0 to 9
-- Creaded a list `permutations` containing all the possible permutations from the list  "digits" usning `itertools.permutations`
+- Created a list `digits` containing numbers from 0 to 9.
+- Creaded a list `permutations` containing all the possible permutations from the list  "digits" usning `itertools.permutations`.
 - Now `permutations` is a list that contains 3628800 lists.
-- By looping through the list "permutations"
-    - Made a two-gigit `a` number from 0th to 1st index.
-    - Made a three-digit `b` number from 2nd to 4th index.
-    - Made a five-digit `c` number from 5th to 9th index.
-- Check if the condition `a X b = c` and display the solutions
+- By looping through the list "permutations".
+    - Made a two-gigit `a` number from 0<sup>th</sup> to 1<sup>st</sup> index.
+    - Made a three-digit `b` number from 2<sup>nd</sup> to 4<sup>th</sup> index.
+    - Made a five-digit `c` number from 5<sup>th</sup> to 9<sup>th</sup> index.
+- Check if the condition `a X b = c` and display the solutions.
