@@ -44,14 +44,20 @@ with col2:
             b = i[2]*100 + i[3]*10 + i[4]
             # Making five-digit number from 5th to 9th index.
             c = i[5]*10000 + i[6]*1000 + i[7]*100 + i[8]*10 + i[9]
+            
+            instance = st.empty()
+            if c < 10000:
+                # If the product is a four-digit, this will add a leading zero to the output.
+                instance.write(sl_no, str(a),"X",str(b),"=",str(c).zfill(5))
+            else:
+                instance.write(sl_no, str(a),"X",str(b),"=",str(c))
 
             # Checking condition and printing the result.
             if a*b==c:
                 if c < 10000:
                     # If the product is a four-digit, this will add a leading zero to the output.
                     st.write(sl_no, str(a),"X",str(b),"=",str(c).zfill(5))
-                    sl_no+=1
                 else:
                     st.write(sl_no, str(a),"X",str(b),"=",str(c))
-                    sl_no+=1
+                sl_no+=1
             
