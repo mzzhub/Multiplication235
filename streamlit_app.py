@@ -46,11 +46,6 @@ with col2:
             c = i[5]*10000 + i[6]*1000 + i[7]*100 + i[8]*10 + i[9]
             
             instance = st.empty()
-            if c < 10000:
-                # If the product is a four-digit, this will add a leading zero to the output.
-                instance.write(str(a) + " X " + str(b) + " = " + str(c).zfill(5))
-            else:
-                instance.write(str(a) + " X " + str(b) + " = " + str(c))
 
             # Checking condition and printing the result.
             if a*b==c:
@@ -60,4 +55,11 @@ with col2:
                 else:
                     st.write(sl_no, str(a),"X",str(b),"=",str(c))
                 sl_no+=1
+            else:
+                if c < 10000:
+                    # If the product is a four-digit, this will add a leading zero to the output.
+                    instance.write(str(a) + " X " + str(b) + " = " + str(c).zfill(5))
+                else:
+                    instance.write(str(a) + " X " + str(b) + " = " + str(c))
+
             
