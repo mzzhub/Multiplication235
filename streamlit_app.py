@@ -48,9 +48,9 @@ with col2:
             instance = st.empty()
             if c < 10000:
                 # If the product is a four-digit, this will add a leading zero to the output.
-                instance.write(sl_no, str(a),"X",str(b),"=",str(c).zfill(5))
+                instance.write(str(a) + " X " + str(b) + " = " + str(c).zfill(5))
             else:
-                instance.write(sl_no, str(a),"X",str(b),"=",str(c))
+                instance.write(str(a) + " X " + str(b) + " = " + str(c))
 
             # Checking condition and printing the result.
             if a*b==c:
