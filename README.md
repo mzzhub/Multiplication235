@@ -14,4 +14,4 @@ Generating solutions for a pandigital multiplication puzzle.
     - Made a two-gigit `a` number from 0th to 1st index.
     - Made a three-digit `b` number from 2nd to 4th index.
     - Made a five-digit `c` number from 5th to 9th index.
-- Check if the condition `a*b=c` and display the solutions
+- Check if the condition `a X b = c` and display the solutions
