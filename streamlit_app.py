@@ -10,7 +10,6 @@ message = False
 if st.button("**Geneate solutions**"):
     digits = [0,1,2,3,4,5,6,7,8,9]
     permutations = list(itertools.permutations(digits))
-    st.write(len(permutations))
 
     sl_no = 1
 
@@ -35,6 +34,6 @@ if st.button("**Geneate solutions**"):
 if message:
     st.markdown("""
                         <h1 style='font-size:50px;'>
-                            Total of <span style='color:red;'>16</span> solutions found out of 3628800 permutaions.
+                            Total of <span style='color:red;'>16</span> solutions found out of 3,628,800 permutaions.
                         </h1>
                     """, unsafe_allow_html=True)
