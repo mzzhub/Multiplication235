@@ -35,6 +35,6 @@ if st.button("**Geneate solutions**"):
 if message:
     st.markdown("""
                         <h1 style='font-size:50px;'>
-                            Total of <span style='color:red;'>16</span> solutions found.
+                            Total of <span style='color:red;'>16</span> solutions found out of 3628800 permutaions.
                         </h1>
                     """, unsafe_allow_html=True)
