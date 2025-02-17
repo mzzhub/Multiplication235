@@ -17,4 +17,4 @@ Generating solutions for a pandigital multiplication puzzle.
 - Check if the condition `a X b = c` and display the solutions.
 
 ## 🧑‍💻 Try the app
-![image](https://github.com/user-attachments/assets/d097b7b0-ad1d-44ee-a2b9-432de48cdb83)(https://multiplication235.streamlit.app/)
+[![image](https://github.com/user-attachments/assets/d097b7b0-ad1d-44ee-a2b9-432de48cdb83)](https://multiplication235.streamlit.app/)
