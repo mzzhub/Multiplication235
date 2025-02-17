@@ -47,7 +47,7 @@ with col2:
             if a*b==c:
                 if c < 10000:
                     # If the product is a four-digit, this will add a leading zero to the output.
-                    st.write(a,"X",b,"=",str(c).zfill(5))
+                    st.write(str(a),"X",str(b),"=",str(c).zfill(5))
                 else:
-                    st.write(a,"X",b,"=",c)
+                    st.write(str(a),"X",str(b),"=",str(c))
             
