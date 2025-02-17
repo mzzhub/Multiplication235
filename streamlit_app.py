@@ -1,7 +1,7 @@
 import streamlit as st
 import itertools
 
-st.title('Problem - Multiplication235')
+st.title('Pandigital Multiplication Puzzle 🧩')
 
 st.image("problem.png")
 
